@@ -21,43 +21,43 @@ import { Separator } from '@/components/ui/separator';
 const galleryItems = [
   {
     id: '1',
-    src: 'https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Ashram meditation hall',
+    src: 'https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg',
+    alt: 'Mountain sunrise view',
     width: 1600,
     height: 1067,
   },
   {
     id: '2',
-    src: 'https://images.pexels.com/photos/775417/pexels-photo-775417.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Sacred fire ceremony',
+    src: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg',
+    alt: 'Mountain lake reflection',
     width: 1600,
     height: 1067,
   },
   {
     id: '3',
-    src: 'https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Ashram garden',
+    src: 'https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg',
+    alt: 'Mountain peak in clouds',
     width: 1600,
     height: 1067,
   },
   {
     id: '4',
-    src: 'https://images.pexels.com/photos/3571551/pexels-photo-3571551.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Spiritual gathering',
+    src: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg',
+    alt: 'Mountain valley view',
     width: 1600,
     height: 1067,
   },
   {
     id: '5',
-    src: 'https://images.pexels.com/photos/4400060/pexels-photo-4400060.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Morning prayer',
+    src: 'https://images.pexels.com/photos/1666012/pexels-photo-1666012.jpeg',
+    alt: 'Mountain meadow',
     width: 1600,
     height: 1067,
   },
   {
     id: '6',
-    src: 'https://images.pexels.com/photos/5460440/pexels-photo-5460440.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Meditation session',
+    src: 'https://images.pexels.com/photos/1699030/pexels-photo-1699030.jpeg',
+    alt: 'Mountain forest path',
     width: 1600,
     height: 1067,
   },
@@ -72,7 +72,7 @@ const upcomingEvents = [
     date: new Date('2025-05-10'),
     time: '6:00 AM - 9:00 AM',
     location: 'Main Meditation Hall',
-    image: 'https://images.pexels.com/photos/3094230/pexels-photo-3094230.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: 'https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg',
   },
   {
     id: '2',
@@ -81,7 +81,7 @@ const upcomingEvents = [
     date: new Date('2025-05-15'),
     time: '4:00 PM - 6:00 PM',
     location: 'Library Hall',
-    image: 'https://images.pexels.com/photos/3812731/pexels-photo-3812731.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: 'https://images.pexels.com/photos/1666012/pexels-photo-1666012.jpeg',
   },
   {
     id: '3',
@@ -90,7 +90,7 @@ const upcomingEvents = [
     date: new Date('2025-05-22'),
     time: '7:00 PM - 9:30 PM',
     location: 'Garden Pavilion',
-    image: 'https://images.pexels.com/photos/7266574/pexels-photo-7266574.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg',
   },
 ];
 
@@ -142,8 +142,8 @@ export default function Home() {
             <div className="order-1 lg:order-2 relative">
               <div className="relative rounded-lg overflow-hidden aspect-video shadow-xl">
                 <Image
-                  src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                  alt="Ashram meditation scene"
+                  src="https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg"
+                  alt="Mountain meditation scene"
                   className="object-cover"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"

@@ -15,7 +15,7 @@ export default function ContactPage() {
       <Hero
         title="Contact Us"
         subtitle="Get in touch with our team for inquiries, spiritual guidance, or to plan your visit"
-        image="https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        image="https://images.pexels.com/photos/1699030/pexels-photo-1699030.jpeg"
       />
       
       <section className="section">
@@ -59,8 +59,8 @@ export default function ContactPage() {
               {/* Map or Image */}
               <div className="rounded-lg overflow-hidden shadow-md h-64 md:h-80 relative">
                 <Image
-                  src="https://images.pexels.com/photos/3551227/pexels-photo-3551227.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                  alt="Ashram location"
+                  src="https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg"
+                  alt="Mountain location"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"

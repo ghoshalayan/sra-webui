@@ -19,7 +19,7 @@ interface HeroProps {
 export function Hero({
   title = "Welcome to Singerkone Ramkrishana Ashram",
   subtitle = "A sanctuary for spiritual growth, meditation, and inner peace following the teachings of Ramkrishna",
-  image = "https://images.pexels.com/photos/11005263/pexels-photo-11005263.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  image = "https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg",
   className = "",
   showThreeScene = true,
 }: HeroProps) {
@@ -38,7 +38,7 @@ export function Hero({
       <div className="absolute inset-0 z-0">
         <Image
           src={image}
-          alt="Ashram atmosphere"
+          alt="Mountain landscape"
           fill
           priority
           className="object-cover"

@@ -16,7 +16,7 @@ export default function AboutPage() {
       <Hero
         title="About Our Ashram"
         subtitle="Discovering our roots, mission, and spiritual journey through the teachings of Ramkrishna"
-        image="https://images.pexels.com/photos/4400038/pexels-photo-4400038.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        image="https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg"
       />
       
       {/* Our History */}
@@ -38,8 +38,8 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.pexels.com/photos/11590361/pexels-photo-11590361.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                  alt="Ashram founding ceremony"
+                  src="https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg"
+                  alt="Mountain meditation scene"
                   width={800}
                   height={600}
                   className="object-cover"
@@ -107,19 +107,19 @@ export default function AboutPage() {
               name="Swami Premananda"
               role="Head of Ashram"
               bio="With over 40 years of spiritual practice, Swami Premananda guides the overall vision and activities of our ashram."
-              image="https://images.pexels.com/photos/6474515/pexels-photo-6474515.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              image="https://images.pexels.com/photos/1666012/pexels-photo-1666012.jpeg"
             />
             <TeamMemberCard
               name="Swami Dhyananda"
               role="Meditation Teacher"
               bio="An expert in various meditation techniques, Swami Dhyananda leads daily meditation sessions and retreats."
-              image="https://images.pexels.com/photos/6474472/pexels-photo-6474472.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              image="https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg"
             />
             <TeamMemberCard
               name="Swami Gitananda"
               role="Vedanta Scholar"
               bio="A profound scholar of Vedanta philosophy, Swami Gitananda conducts classes on the Upanishads and Bhagavad Gita."
-              image="https://images.pexels.com/photos/6474485/pexels-photo-6474485.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              image="https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg"
             />
           </div>
           
